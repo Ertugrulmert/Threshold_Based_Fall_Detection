@@ -41,7 +41,9 @@ For the parameter selection and performance evaluation of the model, [SisFall Da
 The performance of the model on the entire dataset was found to be as follows:
 
 -Sensitivity: % 92.7
+
 -Specificity: % 95.5
+
 -Accuracy: % 94.4
 
 Threshold values were determined by carrying out grid search using values in the neighborhood of values used in research papers published on this subject [[1]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0037062).
