@@ -20,12 +20,15 @@ Studies published on this detector type show that the stages of falling largely 
  1. **Impact Stage**
  
 	 This phase represents the moment when the person hits a surface during the falling process. Impact manifests itself as a sudden rise and fall in the magnitude of the acceleration vector. In different studies, there are models that use only one threshold value for magnitude rise or two separate threshold values for rise and fall. Whether to use separate threshold values for the beginning and end of the impact is a parameter that needs to be determined. I used one imapct threshold to initiate and end the impact stage. 
+	 
  2. **Post-Impact Stage**
  
 	Immediately after the impact, a waiting period is included so that the signal has time to stabilize before the later processing stages.  In this way, when there is an extended or multiple-impact fall, the ongoing acceleration fluctuations will settle down before the next stage, which will monitor whether the individual remains motionless.  The waiting time is a model parameter.
+	
 3.  **Motionless Stage**
 
 The individual is expected to stay relativelly still on the surface they fell onto for a short while before recovering. Motionless is modeled as the acceleration vector magnitude not deviating from 1 g more than a set threshold value for a minimum time period. 
+
 4. **Change in body orientation after fall**
 
 This stage is based on the assumption that a fall would change the orientation of the individual's body. The orientation of the body shortly before the first stage of fall detection is compared to the post-fall orientation and the angle difference between the initial and final acceleration vectors is used as a threshold. Angle difference threshold value is a model parameter.
