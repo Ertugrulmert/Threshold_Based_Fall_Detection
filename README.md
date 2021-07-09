@@ -7,6 +7,9 @@ This repository contains the implementation of a threshold based fall detection 
 - parameter_search.py : contains the parameter search code for the algorithm
 - utilities.py : contains helper functions
 
+### Requirements:
+- Pandas, NumPy, Matplotlib
+
 ## What are threshold based fall detection models?
 
 
